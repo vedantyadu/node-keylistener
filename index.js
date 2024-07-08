@@ -1,7 +1,10 @@
 const { execFile } = require('child_process')
+const path = require('path')
 
 function keyListener(callback) {
-  const child = execFile('./bin/keylistener.exe')
+  
+  const child = execFile(path.join(__dirname, '/bin/keylistener.exe'))
+
   child.stdout.on('data', (data) => {
     const data_split = data.toString().split(' ')
     const key_state = {

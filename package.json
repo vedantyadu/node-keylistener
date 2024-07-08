@@ -1,6 +1,6 @@
 {
-  "name": "keylistener",
-  "version": "1.0.0",
+  "name": "@vedantyadu/keylistener",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {

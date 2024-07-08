@@ -125,7 +125,7 @@ unordered_map<short, string> code_to_key = {
 int main() {
 
     set<short> down_keys;
-    
+
     while (true) {
         for (auto i: code_to_key) {
             SHORT key_state = GetAsyncKeyState(i.first);
