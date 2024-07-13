@@ -3,7 +3,7 @@ A global windows keylistener for nodejs created using C++.
 ## Usage
 #### Importing keyListener
 ```js   
-const { keyListener } = require('./keylistener')
+const { keyListener } = require('@vedantyadu/keylistener')
 ```
 #### Creating a keyListener
 The `keyListener` function takes a callback function as an argument and returns a Node.js `ChildProcess`.   
